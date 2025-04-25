@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Feedback System</title>
     <style>
         :root {
@@ -30,7 +31,38 @@
             color: #333;
             line-height: 1.6;
         }
-        
+
+        body {
+    overflow-x: hidden;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow-x: hidden;
+}
+.features-grid,
+.footer-content,
+.stats-grid,
+.tabs-header,
+.header-container {
+    overflow-x: hidden;
+}
+@media (max-width: 768px) {
+    .features-grid,
+    .footer-content,
+    .header-container,
+    .admin-controls {
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+}
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
         .container {
             width: 100%;
             max-width: 1200px;
